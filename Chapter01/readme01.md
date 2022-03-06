@@ -1,5 +1,8 @@
 # README Chapter01
 
+#### Remember to set the PYTHONPATH env variable
+The PYTHONPATH environment variable is a list of paths that are added to sys.path when Python starts.
+
 #### Relative imports are cool... but to be used with care! 
 
 #### You can make executable directories and .zip files! 
