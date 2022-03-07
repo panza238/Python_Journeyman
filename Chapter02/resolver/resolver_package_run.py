@@ -13,7 +13,7 @@ second_run_performance = timeit(setup="from __main__ import resolver",
                                 number=1)
 # Not much explanation about how timeit works... But a glimpse at this tool
 
-print(f"First Run: {first_run_performance:.5f}\n"
-      f"Second Run: {second_run_performance:.5f}")
+print(f"First Run: {first_run_performance:<.7f}\n"
+      f"Second Run: {second_run_performance:<.7f}")
 # Second run is much faster, because 'google.com' is cached
-# Getting data from memory is 100 times faster than getting it over HTTP
+# Getting data from memory is 2000 times faster than getting it over HTTP
