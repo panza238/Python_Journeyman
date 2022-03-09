@@ -5,10 +5,10 @@ from resolver import DNSResolver
 from timeit import timeit  # Very useful package to measure performance!
 
 resolver = DNSResolver()
-first_run_performance = timeit(setup="from __main__ import resolver",
+first_run_performance = timeit(setup="from __main__.py import resolver",
                                stmt="resolver('google.com')",
                                number=1)
-second_run_performance = timeit(setup="from __main__ import resolver",
+second_run_performance = timeit(setup="from __main__.py import resolver",
                                 stmt="resolver('google.com')",
                                 number=1)
 # Not much explanation about how timeit works... But a glimpse at this tool

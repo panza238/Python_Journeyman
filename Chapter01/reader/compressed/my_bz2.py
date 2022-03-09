@@ -3,7 +3,7 @@ import bz2
 import sys
 
 opener = bz2.open
-if __name__ == '__main__':
+if __name__ == '__main__.py':
 
     f = bz2.open(sys.argv[1], mode='wt', encoding='utf-8')
     f.write(' '.join(sys.argv[2:]))

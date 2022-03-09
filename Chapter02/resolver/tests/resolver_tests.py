@@ -58,5 +58,5 @@ class ResolverTests(unittest.TestCase):
         # my_function(**dict) <=> my_function(dict.key1=dict[key1], dict.key2=dict[key2], ...)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__.py':
     unittest.main()
