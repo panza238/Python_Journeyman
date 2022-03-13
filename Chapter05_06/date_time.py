@@ -1,0 +1,20 @@
+"""This module is meant to explor a bit of the datetime module"""
+import datetime
+
+print("datetime.date object")
+d1 = datetime.date(2020, 11, 21)
+print(d1)
+print("str", str(d1))
+print("repr", repr(d1))
+d2 = datetime.date.today()
+print("datetime.date.today() -->", d2)
+print()
+print("datetime.time object")
+t1 = datetime.time(hour=22, minute=22, second=0)
+print(t1)
+print("repr", repr(t1))
+print()
+print("datetime.datetime object")
+dt1 = datetime.datetime(year=2022, day=21, month=11, hour=22, minute=22, second=17)
+print(dt1)
+print("repr", repr(dt1))
